@@ -5,8 +5,8 @@ module.exports = {
   baseUrl: "/fiwl-docs/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.svg",
-  organizationName: "fiwl.org",
-  projectName: "fiwl-js",
+  organizationName: "Thor-x86", // Change this when we have hosting
+  projectName: "fiwl-docs",
   themeConfig: {
     navbar: {
       title: "FIWL [Pre-Alpha]",
@@ -38,12 +38,11 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: "docs/intro/what_is_fiwl",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/Thor-x86/fiwl-docs/edit/master/website/",
+          editUrl: "https://github.com/Thor-x86/fiwl-docs/edit/master/",
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            "https://github.com/Thor-x86/fiwl-docs/edit/master/website/blog/",
+          editUrl: "https://github.com/Thor-x86/fiwl-docs/edit/master/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
