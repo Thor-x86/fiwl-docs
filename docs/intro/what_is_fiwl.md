@@ -22,7 +22,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 As example, let's make a login screen:
 
-<object type="image/svg+xml" data={useBaseUrl("img/docs/intro/what_is_fiwl-3.svg")} />
+<img src={useBaseUrl("img/docs/intro/what_is_fiwl-3.jpg")} alt="a simple login screen with a title, couple of input fields, and a button." />
 
 ### With HTML:
 
